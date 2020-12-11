@@ -1,0 +1,20 @@
+.button {
+  padding: .35rem 1.2rem;
+  background-color: black;
+  color: white;
+  font-weight: 600;
+  outline: nine;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: .25s linear;
+
+  &:hover {
+    background-color: #212121;
+  }
+
+  &:active {
+    background-color: #bdbdbd;
+    color: black;
+  }
+}

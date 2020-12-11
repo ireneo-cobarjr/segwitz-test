@@ -1,0 +1,32 @@
+// Add Normalize CSS for cross-browser design consistency
+@import '../../../node_modules/normalize.css/normalize.css';
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+@import './colors.scss';
+
+* {
+  box-sizing: border-box;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6, .heading {
+  font-weight: 600;
+}
+
+.capitalize {
+  text-transform: capitalize;
+}
+
+.bold {
+  font-weight: 600;
+}
+
+// For any form elements
+@import './form.scss';
+
+// Card style
+@import './card.scss';
+
+//button style
+@import './button.scss';

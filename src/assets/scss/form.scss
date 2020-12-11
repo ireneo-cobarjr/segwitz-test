@@ -1,0 +1,39 @@
+.form {
+  .form__control {
+    display: block;
+    margin-bottom: .85rem;
+    width: 100%;
+
+    label {
+      display: block;
+      text-transform: capitalize;
+      margin-bottom: .2rem;
+    }
+
+    .form__input {
+      width: inherit;
+      padding: .3rem .5rem;
+      border: 1px solid $gray-medium;
+      background-color: $gray-light;
+      border-radius: 7px;
+      outline: none;
+      transition: .24s linear;
+    }
+
+    .form__error {
+      color: $error;
+      font-size: .85rem;
+    }
+  }
+
+  .form__control--error {
+    .form__input {
+      border-color: $error !important;
+    }
+  }
+
+  .form__option {
+    font-size: .9rem;
+    margin-top: 2rem;
+  }
+}
